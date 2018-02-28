@@ -1,0 +1,12 @@
+---
+- provider_name: Mobile Cavalry
+  provider_url: https://mobilecavalry.com/
+  endpoints:
+  - schemes:
+    - https://mobilecavalry.com/*/*/
+    url: https://api.mobilecavalry.com/oembed/services
+    example_urls:
+    - https://api.mobilecavalry.com/oembed/services?url=https://mobilecavalry.com&format=json
+    formats:
+    - json
+...
